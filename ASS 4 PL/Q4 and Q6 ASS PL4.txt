@@ -1,0 +1,16 @@
+Q4 Algrothim of multipication of two numbers?
+Step 1: Start algrothim
+Step 2: Accept first number
+Step 3: Accept second no.
+Step 4: Multiply the two numbers
+Step 5: Display the result
+Step 6: End of algrothim
+
+
+Q6 Pseudocode of this program?
+begain
+numeric nA,nB,nC
+accept nA,nB
+compute nC=nA*nB
+display the result
+end

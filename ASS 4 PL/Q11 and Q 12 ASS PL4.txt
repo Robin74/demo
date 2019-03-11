@@ -1,0 +1,21 @@
+Q11 Algrothim swap of two no.?
+Step 1: Start Algrothim
+Step 2: Accept first character a
+step 3: Accept second character b
+Step 4: a)  a=a+b
+        b)  a=a-b
+        c)  b=a-b
+Step 5: show swap values
+Step 6: End algrothim
+
+
+
+Q12 Pseudocode of this program
+begain
+ char a,b
+ accept a,b
+ a=a+b
+ a=a-b
+ b=a-b
+display the swap values
+end

@@ -1,0 +1,15 @@
+Q1 Algorithim to find the area of circle?
+Step 1: Start algorithim
+Step 2: Accept radious
+Step 3: 3.14*radious*radious
+Step 4: Print area of circle
+Step 5:End algorithim
+
+
+Q2 Pseudocode of this Program?
+begain
+numeric R,nA
+accept R
+compute nA=3.14*R*R
+display the area of circle
+end

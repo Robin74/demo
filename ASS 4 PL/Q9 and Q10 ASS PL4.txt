@@ -1,0 +1,32 @@
+Q9 Find lowest no. or not among three no.?
+Step 1: Start Algrothim
+Step 2: Accept first no.9 a
+Step 3: Accept second no. b
+step 4: Accept third no. c
+Step 5: if a<b and a<c goto step 8
+Step 6: if b<a and b<c goto step 9
+Step 7: if c<a and c<b goto step 10
+Step 8: a is lowest
+Step 9: b is lowest
+Step 10: c is lowest
+Step 11: End of algrothim
+
+
+Q10Pseudocode of this program?
+begain
+numeric a,b,c
+accept a,b,c
+if(a<b && a<c)
+ begain
+       a is lowest
+  end
+if(b<a && b<c)
+  begain
+       b is lowest
+  end
+if(c<a && c<b)
+  begain
+        c is lowest
+   end
+end
+

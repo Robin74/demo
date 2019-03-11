@@ -1,0 +1,32 @@
+Q7 Algrothim check weather the no. is perfect no. or not?
+Step 1: Start algrothim
+Step 2: Accept number
+Step 3: s=0
+Step 4: fori=1 to n 
+        a) begain
+        b) if(n%i==0)
+        c) s=s+i
+        d)end for
+Step 5: if s==n goto 6 step else goto 7 step
+Srep 6: write 'Given no. is perfect no.' goto step 8
+Step 7: write 'Given no. is not perfect no.'
+Step 8: End algrothim
+
+
+Q8 Pseudocode of this program?
+begain
+numeric n,i,s
+accept n
+for(i=0;i<=(n-1);i++)
+  begain
+         s=s+i
+   end
+if(s==n)
+  begain
+      no. is perfect no.
+    end
+else
+ begain
+     no. is not perfect no.
+  end
+end
