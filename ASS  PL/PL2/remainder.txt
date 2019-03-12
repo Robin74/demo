@@ -1,0 +1,17 @@
+Q4 Find the Quotient and remainder
+
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+   int d,div,q,r;
+   printf("enter two no.\n");
+   scanf("%d%d",&d,&div);
+   q=d/div;
+   r=d%div;
+   printf("%d\n",q);
+   printf("%d",r);
+   return 0;
+}

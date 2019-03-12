@@ -1,0 +1,24 @@
+                                                                  SQL ASS 4
+Q1:Write a query to fetch and displaythe number of studentsenrolled for modules on a specific date grouped by start date and display start date and total number of students. 
+Ans: select student_name,count(*) from student_details group by start_date
+Q2:Write a query to fetch and displaythe number of students enrolled for modules where facultyid is ‘F001’ grouped by start date and display start date and total number of students.
+Ans: select student_name from student_details where faculty_id='F001' group by start_date
+Q3:Write a query to fetch and displaythe number of students enrolled for modules where facultyid is ‘F001’ grouped by module start date and display module start date and total number of students where the total number of students> 2.
+Ans: select student_name,student_id from student_details where faculty_id='F001' group by start_date having count(student_ID)>2
+Q4:Write a query to fetch and displayall the modules in ascending order of module duration.
+Ans: select * from module_details order by module_duration
+Q5:Write aquery to fetch and displaythe student’sname, their module enrolled (module name and module id). Order them according to their name.
+Ans: select S.name,M.name,M.ID from student_details S inner join module_details M;
+Q6:Write a query to fetch and display faculty_id and batch_id which will fetchall the combinations of facultyIDs and batch IDs.
+Ans: 
+select F.ID,B.ID from faculty_details F cross join batch_details B;
+Q7:Write a query to fetch and displaythe records of all the details from Student_Status and batch_info, wherever batch_id is common in both the tables.
+Ans: select * from student_status s inner join batch_details B on s.batchinfo=b.batchinfo
+Q8Write a query to fetch and display the student IDs of the students tagged to facultyand all the faculty IDs irrespective of whether there are any students tagged to them or not. Hint: Use Student_status and FacultyDetails tables and Right Outer Join
+Ans: select S.ID,F.ID from Student_Details S right outer join faculty_details F on S.ID=F.ID
+Q9:Write a query to fetch and display the studentIDs of the students tagged to facultiesand all the faculty IDs irrespective of whether there are any students tagged to them or not. 
+Ans: select S.ID,F.ID from Student_Details S left outer join F.ID on S.ID=F.ID
+Q10:Write a query to fetch and displaythe student IDs ofall the students and faculty IDs of all faculties irrespective of whetherthese is any association between students and faculty Ids and vice versa.Hint: Use Student_status and FacultyDetails tables and FullOuter Jointhough full outer join is not supported by MYSQL we have to find out a way to implement that.
+Ans: select S.ID,F.ID from Student_Details S right outer join faculty_details F on S.ID=F.ID
+      UNION
+     select S.ID,F.ID from Student_Details S left outer join F.ID on S.ID=F.ID

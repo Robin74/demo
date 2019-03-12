@@ -1,0 +1,21 @@
+Q4 a A
+   b B
+
+
+#include <stdio.h>
+
+int main()
+
+{
+     char a,b,temp,var;
+     printf("enter two character\n");
+     scanf("%c%c\t",&a,&b);
+
+
+     	temp=97-32;
+     	printf("%c\t",temp);
+	var=98-32;
+	printf("%c\t",var);
+
+
+}

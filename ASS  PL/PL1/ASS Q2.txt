@@ -1,0 +1,25 @@
+Q2 Print S
+         S C
+         S C H
+         S C H O 
+         S C H O O 
+         S C H O O L
+
+#include<stdio.h>
+
+void main()
+
+{
+    char s[]="SCHOOL";
+    int i,j;
+
+    for(i=0;s[i];i++)
+    {
+        for(j=0;j<=i;j++)
+
+        printf("%c",s[j]);
+
+        printf("\n");
+    }
+
+}

@@ -1,0 +1,40 @@
+                                                                              ASS 5 PL
+Q5 Sum of matrix?
+Ans:  #include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+   
+   int a[3][3],b[3][3],c[3][3],i,j,m,n;
+   printf("enter the row or column of first matrix\n");
+   scanf("&m,&n",m,n);
+   for(i=0;i<=m;i++)
+   {
+   	for(j=0;j<=n;j++)
+	{
+		scanf("%d",&a[i][j]);
+	}
+   }
+   printf("enter the row or column of second matrix\n");
+   for(i=0;i<=m;i++)
+   {
+   	for(j=0;j<=n;j++)
+	{
+		scanf("%d",&b[i][j]);
+	}
+   }
+	printf("sum of matrix\n");
+	for(i=0;i<=m;i++)
+	{
+		for(j=0;j<=n;j++)
+		{
+			c[i][j]=a[i][j]+b[i][j];
+			printf("%d\t",c[i][j]);
+		}
+		printf("\n");
+	}
+
+
+
+}

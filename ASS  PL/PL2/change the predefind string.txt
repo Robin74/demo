@@ -1,0 +1,22 @@
+Q2 predefind string 
+
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    char a[]="java is a good language\n";
+    printf("%s",a);
+    int i;
+    for(i=0;a[i]!='\0';i++)
+    {
+    	if(a[i]=='a')
+	{
+		a[i]='e';
+	}
+
+    }
+    printf("%s",a);
+    return 0;
+}

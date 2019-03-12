@@ -1,0 +1,37 @@
+Q3 A B C
+   X Y Z
+#include <stdio.h>
+
+
+
+int main()
+
+{
+    char c[]={'A','B','C'};
+    printf("%s",c\n);
+
+ int i;
+
+ int f=90;
+
+  for(i=0;i<3;i++)
+
+ {
+
+int d=f-c[i];
+
+ c[i]=c[i]+d;
+
+ f=f-1;
+    }
+
+ for(i=0;i<3;i++)
+
+ {
+        printf("%c",c[i]);
+
+
+  }
+
+
+}

@@ -1,0 +1,31 @@
+Q3 Substring 
+i/p= "Hello world"
+o/p= "llo orld"
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    char a[]="Hello World\n";
+    printf("%s",a);
+     int i;
+    for(i=0;a[i]!='\0';i++)
+    {
+    	if(a[i]=='H')
+	{
+		a[i]=' ';
+	}
+	if(a[i]=='e')
+	{
+		a[i]='  ';
+	}
+	if(a[i]=='W')
+	{
+		a[i]='  ';
+	}
+
+    }
+    printf("%s",a);
+    return 0;
+}
